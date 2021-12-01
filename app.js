@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 
 app.get('/',(req, res) => {
-    res.send('Welcome Azure')
+    res.send('Welcome Azure people')
 });
 
-app.listen(3000, ()=> {
+app.listen(8080, ()=> {
     console.log('Server is running on 3000')
 });
